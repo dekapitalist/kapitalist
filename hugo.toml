@@ -2,8 +2,6 @@ baseURL = "https://dekapitalist.github.io/kapitalist/"
 languageCode = "nl-be"
 title = "De Kapitalist"
 theme = "PaperMod"
-relativeURLs = true
-canonifyURLs = true
 
 enableRobotsTXT = true
 paginate = 10
