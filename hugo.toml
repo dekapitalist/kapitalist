@@ -27,4 +27,4 @@ weight = 1
 [[menu.main]]
 name = "Inschrijven"
 url = "/subscribe/"
-weight = 2
+weight = 1
