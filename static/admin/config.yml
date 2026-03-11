@@ -2,7 +2,8 @@ backend:
   name: github
   repo: dekapitalist/kapitalist
   branch: main
-  base_url: https://api.github.com
+  auth_type: github_app
+  app_id: 3066312
 
 media_folder: "static/images"
 public_folder: "/images"
