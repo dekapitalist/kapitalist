@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://kapitalist.be/sitemap.xml
+Sitemap: https://dekapitalist.github.io/kapitalist/sitemap.xml
