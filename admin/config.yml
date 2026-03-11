@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: kapitalist/kapitalist
+  repo: dekapitalist/kapitalist
   branch: main
 
 media_folder: "static/images"
