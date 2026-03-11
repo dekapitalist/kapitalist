@@ -1,0 +1,30 @@
+baseURL = "https://kapitalist.be/"
+languageCode = "nl-be"
+title = "De Kapitalist"
+theme = "PaperMod"
+
+enableRobotsTXT = true
+paginate = 10
+
+[sitemap]
+changefreq = "weekly"
+priority = 0.5
+filename = "sitemap.xml"
+
+[params]
+description = "Blog over investeren, vermogensopbouw, slim omgaan met geld om uiteindelijk financiële vrijheid te hebben."
+author = "De Kapitalist"
+ShowReadingTime = true
+ShowShareButtons = true
+ShowBreadCrumbs = true
+ShowPostNavLinks = true
+
+[[menu.main]]
+name = "Blog"
+url = "/posts/"
+weight = 1
+
+[[menu.main]]
+name = "Inschrijven"
+url = "/subscribe/"
+weight = 2
