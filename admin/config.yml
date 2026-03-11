@@ -12,9 +12,9 @@ collections:
 
 - name: "posts"
   label: "Blog posts"
-  folder: "content/posts"
+  folder: content/posts/{{year}}
+  slug: "{{slug}}"
   create: true
-  path: "{{year}}/{{slug}}"
 
   fields:
     - { label: "Title", name: "title", widget: "string" }
