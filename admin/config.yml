@@ -11,13 +11,11 @@ media_folder: "static/images"
 public_folder: "/images"
 
 collections:
-
 - name: "posts"
   label: "Blog posts"
-  folder: content/posts/{{year}}
-  slug: "{{slug}}"
+  folder: content/posts
+  slug: "{{year}}/{{slug}}"
   create: true
-
   fields:
     - { label: "Title", name: "title", widget: "string" }
     - { label: "Date", name: "date", widget: "datetime" }
