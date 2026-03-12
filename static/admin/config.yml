@@ -4,6 +4,7 @@ backend:
   branch: main
   base_url: https://decap-auth.barres-70-nouveau-546.workers.dev
   auth_endpoint: auth
+  site_url: https://dekapitalist.github.io/kapitalist
 
 media_folder: "static/images"
 public_folder: "/images"
