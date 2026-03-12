@@ -15,7 +15,6 @@ collections:
   label: "Blog posts"
   folder: content/posts
   slug: "{{year}}/{{slug}}"
-  path: "{{year}}/{{slug}}"
   create: true
   fields:
     - { label: "Title", name: "title", widget: "string" }
