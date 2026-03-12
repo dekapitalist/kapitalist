@@ -3,25 +3,26 @@
     align-items: center;
     gap: 6px;
     margin-left: 12px;
+    flex-shrink: 0;
 }
 
 .newsletter-form input[type="email"] {
-    padding: 4px 10px;
-    border-radius: 6px;
+    padding: 3px 9px;
+    border-radius: 5px;
     border: 1px solid var(--border);
-    font-size: 0.78rem;
-    width: 180px;
+    font-size: 0.76rem;
+    width: 190px;
+    min-width: 80px;
     background-color: var(--theme);
     color: var(--primary);
-    height: 28px;
+    height: 26px;
     box-sizing: border-box;
-    transition: border-color 0.2s;
-    min-width: 0;
+    transition: border-color 0.2s, width 0.2s;
 }
 
 .newsletter-form input[type="email"]::placeholder {
     color: var(--secondary);
-    font-size: 0.75rem;
+    font-size: 0.74rem;
 }
 
 .newsletter-form input[type="email"]:focus {
@@ -30,15 +31,15 @@
 }
 
 .newsletter-form button {
-    padding: 4px 10px;
-    border-radius: 6px;
+    padding: 3px 9px;
+    border-radius: 5px;
     border: 1px solid var(--primary);
     background-color: var(--primary);
     color: var(--theme);
-    font-size: 0.78rem;
+    font-size: 0.76rem;
     cursor: pointer;
     white-space: nowrap;
-    height: 28px;
+    height: 26px;
     box-sizing: border-box;
     flex-shrink: 0;
     transition: opacity 0.2s;
@@ -48,19 +49,16 @@
     opacity: 0.75;
 }
 
-/* Op kleine schermen: input krimpt mee, knop blijft zichtbaar */
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     .newsletter-form input[type="email"] {
-        width: 120px;
-        font-size: 0.7rem;
-    }
-
-    .newsletter-form input[type="email"]::placeholder {
+        width: 90px;
         font-size: 0.68rem;
     }
-
+    .newsletter-form input[type="email"]::placeholder {
+        font-size: 0.65rem;
+    }
     .newsletter-form button {
-        font-size: 0.7rem;
-        padding: 4px 7px;
+        font-size: 0.68rem;
+        padding: 3px 6px;
     }
 }
