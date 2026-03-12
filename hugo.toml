@@ -19,10 +19,3 @@ ShowShareButtons = true
 ShowBreadCrumbs = true
 ShowPostNavLinks = true
 
-[[menu.main]]
-name = "Blog"
-url = "/posts/"
- 
-[[menu.main]]
-name = "Inschrijven"
-url = "/subscribe/"
