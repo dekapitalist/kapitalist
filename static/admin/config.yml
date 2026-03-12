@@ -8,7 +8,7 @@ backend:
   auth_endpoint: auth
 
 media_folder: "static/images"
-public_folder: "/images"
+public_folder: "/kapitalist/images"
 
 collections:
 - name: "posts"
