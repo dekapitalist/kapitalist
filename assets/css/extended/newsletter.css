@@ -1,25 +1,27 @@
 .newsletter-form {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
-    flex-wrap: wrap;
-    margin-left: auto;
-    padding-left: 1rem;
+    gap: 6px;
+    margin-left: 12px;
 }
 
 .newsletter-form input[type="email"] {
-    padding: 0.35rem 0.75rem;
+    padding: 4px 10px;
     border-radius: 6px;
     border: 1px solid var(--border);
-    font-size: 0.85rem;
-    width: 240px;
+    font-size: 0.78rem;
+    width: 180px;
     background-color: var(--theme);
     color: var(--primary);
+    height: 28px;
+    box-sizing: border-box;
     transition: border-color 0.2s;
+    min-width: 0;
 }
 
 .newsletter-form input[type="email"]::placeholder {
     color: var(--secondary);
+    font-size: 0.75rem;
 }
 
 .newsletter-form input[type="email"]:focus {
@@ -28,35 +30,37 @@
 }
 
 .newsletter-form button {
-    padding: 0.35rem 0.9rem;
+    padding: 4px 10px;
     border-radius: 6px;
     border: 1px solid var(--primary);
     background-color: var(--primary);
     color: var(--theme);
-    font-size: 0.85rem;
+    font-size: 0.78rem;
     cursor: pointer;
     white-space: nowrap;
+    height: 28px;
+    box-sizing: border-box;
+    flex-shrink: 0;
     transition: opacity 0.2s;
 }
 
 .newsletter-form button:hover {
-    opacity: 0.8;
+    opacity: 0.75;
 }
 
-.newsletter-form #result {
-    font-size: 0.8rem;
-    color: var(--secondary);
-}
-
-@media (max-width: 768px) {
-    .newsletter-form {
-        width: 100%;
-        padding-left: 0;
-        margin-top: 0.5rem;
+/* Op kleine schermen: input krimpt mee, knop blijft zichtbaar */
+@media (max-width: 600px) {
+    .newsletter-form input[type="email"] {
+        width: 120px;
+        font-size: 0.7rem;
     }
 
-    .newsletter-form input[type="email"] {
-        width: 100%;
-        flex: 1;
+    .newsletter-form input[type="email"]::placeholder {
+        font-size: 0.68rem;
+    }
+
+    .newsletter-form button {
+        font-size: 0.7rem;
+        padding: 4px 7px;
     }
 }
