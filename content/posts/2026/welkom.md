@@ -5,3 +5,5 @@ draft: false
 description: Welkom123 bij De Kapitalist
 ---
 Welkom123 op het blog over investeren, vermogensopbouw en slim omgaan met geld om uiteindelijk te werken naar financiële vrijheid.
+
+![](kapitalist-kopie.webp)
